@@ -1,0 +1,22 @@
+.product{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.pagination__item{
+  border: solid 1px #181616dd;
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.active{
+  background-color: aqua;
+}

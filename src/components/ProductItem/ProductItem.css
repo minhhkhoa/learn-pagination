@@ -1,0 +1,30 @@
+.product__item {
+  display: flex;
+  flex: 1 1 20%;
+  flex-direction: column;
+  position: relative;
+  border: solid 1px #131313;
+  padding: 10px;
+  margin: 10px;
+}
+
+.product__image {
+  width: 100%;
+  aspect-ratio: 4/3;
+  flex: 1;
+}
+
+.product__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.block {
+  position: absolute;
+  bottom: 10px;
+}
+
+.hide{
+  display: none;
+}
